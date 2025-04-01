@@ -25,12 +25,6 @@ Kernels - functions that run in parallel across many threads on the GPU.
    * The number of threads per block is usually **a multiple of 32** (e.g., 128, 256, or 512).
    * All threads in a block share **shared memory** , which is much faster than global memory
 4. **Grid** : A collection of thread blocks. The grid organizes how threads are mapped to the GPU. Each kernel creates its on grid
-5. **Memory Hierarchy** :
-
-   * **Global Memory** : Accessible by all threads, but slow.
-   * **Shared Memory** : Shared within a thread block, much faster than global memory.
-   * **Registers** : Fastest memory, used for per-thread storage.
-   * **Constant Memory** : Read-only memory optimized for frequent reads.
 
 ##### Blocks vs Warps Example:
 

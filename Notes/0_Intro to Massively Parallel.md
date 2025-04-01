@@ -46,6 +46,3 @@ GPUs consist of many SMs that are all connected via the L2 cache
 * Other Components:
   * Warp Schedulers - Manage instruction execution for warps (group of 32 threads)
   * Memory Units - Provides access to registers, caches, and global memory
-
-
-## Enter CUDA
